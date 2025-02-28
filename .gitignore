@@ -6,6 +6,24 @@ __pycache__/
 # C extensions
 *.so
 
+
+# Игнорируем виртуальное окружение
+.venv
+venv
+
+# Игнорируем файлы IDE
+.vscode
+.idea
+
+# Игнорируем логи
+*.log
+
+# Игнорируем файлы .env с секретными данными
+bot/config/.env
+
+
+
+
 # Distribution / packaging
 .Python
 build/
